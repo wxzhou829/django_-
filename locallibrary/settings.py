@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','tcz4d4-nd9i8#pf2zbg06r^8pm#!8yr
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['192.168.1.85',]
+ALLOWED_HOSTS = ['warm-sierra-98974.herokuapp.com',]
 
 
 # Application definition
